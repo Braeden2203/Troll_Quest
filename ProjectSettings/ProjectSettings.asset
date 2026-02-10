@@ -682,11 +682,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 913e1fa0-e512-4852-bd6e-eb5215a635f5
+  cloudProjectId: 31789cdc-0b66-4d34-a78d-44bc3d086c9f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Troll_Quest
-  organizationId: oehlmannbraeden
+  organizationId: suraky22_unity
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
