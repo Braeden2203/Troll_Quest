@@ -1,0 +1,566 @@
+fileFormatVersion: 2
+guid: 9f0d2dd2907a8e44abb2ea7fac3bde8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4229007803033623192
+    second: shrelda_half_elf_troll (1)_0
+  - first:
+      213: 4961179261221975947
+    second: shrelda_half_elf_troll (1)_1
+  - first:
+      213: -3755430527619243162
+    second: shrelda_half_elf_troll (1)_2
+  - first:
+      213: -5010241631534103091
+    second: shrelda_half_elf_troll (1)_3
+  - first:
+      213: -7701575491434265106
+    second: shrelda_half_elf_troll (1)_4
+  - first:
+      213: -6654974647893957647
+    second: shrelda_half_elf_troll (1)_5
+  - first:
+      213: -608917890312870267
+    second: shrelda_half_elf_troll (1)_6
+  - first:
+      213: -4464198775362837507
+    second: shrelda_half_elf_troll (1)_7
+  - first:
+      213: 7319795731223460485
+    second: shrelda_half_elf_troll (1)_8
+  - first:
+      213: -1107543050734704214
+    second: shrelda_half_elf_troll (1)_9
+  - first:
+      213: 7833801205369112116
+    second: shrelda_half_elf_troll (1)_10
+  - first:
+      213: 9163467507188184412
+    second: shrelda_half_elf_troll (1)_11
+  - first:
+      213: 4594876356222343913
+    second: shrelda_half_elf_troll (1)_12
+  - first:
+      213: 6633977451084141563
+    second: shrelda_half_elf_troll (1)_13
+  - first:
+      213: 6574928660012122976
+    second: shrelda_half_elf_troll (1)_14
+  - first:
+      213: -2523009782670946681
+    second: shrelda_half_elf_troll (1)_15
+  - first:
+      213: -641837886217359314
+    second: shrelda_half_elf_troll (1)_16
+  - first:
+      213: -3131688851440851177
+    second: shrelda_half_elf_troll (1)_17
+  - first:
+      213: -4146626449465842438
+    second: shrelda_half_elf_troll (1)_18
+  - first:
+      213: 8238505467993103901
+    second: shrelda_half_elf_troll (1)_19
+  - first:
+      213: -8328277377506585173
+    second: shrelda_half_elf_troll (1)_20
+  - first:
+      213: -1853143779057971653
+    second: shrelda_half_elf_troll (1)_21
+  - first:
+      213: -4936337777869302292
+    second: shrelda_half_elf_troll (1)_22
+  - first:
+      213: 2230164771464861913
+    second: shrelda_half_elf_troll (1)_23
+  - first:
+      213: -2048360605119122842
+    second: shrelda_half_elf_troll (1)_24
+  - first:
+      213: 5841472455988205262
+    second: shrelda_half_elf_troll (1)_25
+  - first:
+      213: -2993123410656262154
+    second: shrelda_half_elf_troll (1)_26
+  - first:
+      213: 3785406353515609072
+    second: shrelda_half_elf_troll (1)_27
+  - first:
+      213: -4010725111751615733
+    second: shrelda_half_elf_troll (1)_28
+  - first:
+      213: 7956267204515117126
+    second: shrelda_half_elf_troll (1)_29
+  - first:
+      213: -4035230794813027477
+    second: shrelda_half_elf_troll (1)_30
+  - first:
+      213: 6206038893413650323
+    second: shrelda_half_elf_troll (1)_31
+  - first:
+      213: 8577062883547846482
+    second: shrelda_half_elf_troll (1)_32
+  - first:
+      213: -731391207453014235
+    second: shrelda_half_elf_troll (1)_33
+  - first:
+      213: 2104563262611617378
+    second: shrelda_half_elf_troll (1)_34
+  - first:
+      213: 5336322805999018049
+    second: shrelda_half_elf_troll (1)_35
+  - first:
+      213: 3028051676795361265
+    second: shrelda_half_elf_troll (1)_36
+  - first:
+      213: -3524578092461065807
+    second: shrelda_half_elf_troll (1)_37
+  - first:
+      213: 6210794864734621722
+    second: shrelda_half_elf_troll (1)_38
+  - first:
+      213: 7376946969021880559
+    second: shrelda_half_elf_troll (1)_39
+  - first:
+      213: -8678571925165928788
+    second: shrelda_half_elf_troll (1)_40
+  - first:
+      213: 1981236635181190576
+    second: shrelda_half_elf_troll (1)_41
+  - first:
+      213: 857793844687436539
+    second: shrelda_half_elf_troll (1)_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 135
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 700
+        width: 243
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86563d33fcb8f45c0800000000000000
+      internalID: -4229007803033623192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 696
+        width: 225
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87bb2ca046a9d440800000000000000
+      internalID: 4961179261221975947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 698
+        width: 204
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663e89e05d702ebc0800000000000000
+      internalID: -3755430527619243162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_3
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 696
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5498118cb087ab0800000000000000
+      internalID: -5010241631534103091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 405
+        width: 222
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5c43e25e18e1590800000000000000
+      internalID: -7701575491434265106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 407
+        width: 203
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3ec0b31d7c4a3a0800000000000000
+      internalID: -6654974647893957647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_6
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 407
+        width: 205
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586658aa760bc87f0800000000000000
+      internalID: -608917890312870267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_7
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 407
+        width: 225
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3a3cbbddafb02c0800000000000000
+      internalID: -4464198775362837507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 118
+        width: 208
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58abef38f63259560800000000000000
+      internalID: 7319795731223460485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 118
+        width: 207
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9618f967731a0f0800000000000000
+      internalID: -1107543050734704214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 118
+        width: 214
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4368d07e0b047bc60800000000000000
+      internalID: 7833801205369112116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrelda_half_elf_troll (1)_11
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 116
+        width: 194
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5539ccc52d2b2f70800000000000000
+      internalID: 9163467507188184412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4843e8909ff4e6843bf693caa6fa05ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shrelda_half_elf_troll (1)_0: -4229007803033623192
+      shrelda_half_elf_troll (1)_1: 4961179261221975947
+      shrelda_half_elf_troll (1)_10: 7833801205369112116
+      shrelda_half_elf_troll (1)_11: 9163467507188184412
+      shrelda_half_elf_troll (1)_12: 4594876356222343913
+      shrelda_half_elf_troll (1)_13: 6633977451084141563
+      shrelda_half_elf_troll (1)_14: 6574928660012122976
+      shrelda_half_elf_troll (1)_15: -2523009782670946681
+      shrelda_half_elf_troll (1)_16: -641837886217359314
+      shrelda_half_elf_troll (1)_17: -3131688851440851177
+      shrelda_half_elf_troll (1)_18: -4146626449465842438
+      shrelda_half_elf_troll (1)_19: 8238505467993103901
+      shrelda_half_elf_troll (1)_2: -3755430527619243162
+      shrelda_half_elf_troll (1)_20: -8328277377506585173
+      shrelda_half_elf_troll (1)_21: -1853143779057971653
+      shrelda_half_elf_troll (1)_22: -4936337777869302292
+      shrelda_half_elf_troll (1)_23: 2230164771464861913
+      shrelda_half_elf_troll (1)_24: -2048360605119122842
+      shrelda_half_elf_troll (1)_25: 5841472455988205262
+      shrelda_half_elf_troll (1)_26: -2993123410656262154
+      shrelda_half_elf_troll (1)_27: 3785406353515609072
+      shrelda_half_elf_troll (1)_28: -4010725111751615733
+      shrelda_half_elf_troll (1)_29: 7956267204515117126
+      shrelda_half_elf_troll (1)_3: -5010241631534103091
+      shrelda_half_elf_troll (1)_30: -4035230794813027477
+      shrelda_half_elf_troll (1)_31: 6206038893413650323
+      shrelda_half_elf_troll (1)_32: 8577062883547846482
+      shrelda_half_elf_troll (1)_33: -731391207453014235
+      shrelda_half_elf_troll (1)_34: 2104563262611617378
+      shrelda_half_elf_troll (1)_35: 5336322805999018049
+      shrelda_half_elf_troll (1)_36: 3028051676795361265
+      shrelda_half_elf_troll (1)_37: -3524578092461065807
+      shrelda_half_elf_troll (1)_38: 6210794864734621722
+      shrelda_half_elf_troll (1)_39: 7376946969021880559
+      shrelda_half_elf_troll (1)_4: -7701575491434265106
+      shrelda_half_elf_troll (1)_40: -8678571925165928788
+      shrelda_half_elf_troll (1)_41: 1981236635181190576
+      shrelda_half_elf_troll (1)_42: 857793844687436539
+      shrelda_half_elf_troll (1)_5: -6654974647893957647
+      shrelda_half_elf_troll (1)_6: -608917890312870267
+      shrelda_half_elf_troll (1)_7: -4464198775362837507
+      shrelda_half_elf_troll (1)_8: 7319795731223460485
+      shrelda_half_elf_troll (1)_9: -1107543050734704214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
