@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: d900c9eb748b5bd4da91b12206c5e0c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2676137829817799051
+    second: sherlda-removebg-preview_0
+  - first:
+      213: 5545100333179909544
+    second: sherlda-removebg-preview_1
+  - first:
+      213: 1605813909732478054
+    second: sherlda-removebg-preview_2
+  - first:
+      213: -6730457478404658891
+    second: sherlda-removebg-preview_3
+  - first:
+      213: -7012337270337831899
+    second: sherlda-removebg-preview_4
+  - first:
+      213: 8504495014410175751
+    second: sherlda-removebg-preview_5
+  - first:
+      213: -5046841716436366856
+    second: sherlda-removebg-preview_6
+  - first:
+      213: 1028223406415213714
+    second: sherlda-removebg-preview_7
+  - first:
+      213: -7962171214048810531
+    second: sherlda-removebg-preview_8
+  - first:
+      213: -4397161954793256290
+    second: sherlda-removebg-preview_9
+  - first:
+      213: -149874701635431005
+    second: sherlda-removebg-preview_10
+  - first:
+      213: 2685614010030022978
+    second: sherlda-removebg-preview_11
+  - first:
+      213: -6444968111344318685
+    second: sherlda-removebg-preview_12
+  - first:
+      213: 7507259544381574732
+    second: sherlda-removebg-preview_13
+  - first:
+      213: 8077805845349972984
+    second: sherlda-removebg-preview_14
+  - first:
+      213: -7910135759459550678
+    second: sherlda-removebg-preview_15
+  - first:
+      213: -5136042562307606842
+    second: sherlda-removebg-preview_16
+  - first:
+      213: 7128313531220768801
+    second: sherlda-removebg-preview_17
+  - first:
+      213: 2097539869321635967
+    second: sherlda-removebg-preview_18
+  - first:
+      213: 6306201840951849501
+    second: sherlda-removebg-preview_19
+  - first:
+      213: -3657336572556438403
+    second: sherlda-removebg-preview_20
+  - first:
+      213: 1189650171435735410
+    second: sherlda-removebg-preview_21
+  - first:
+      213: -2778550610906746751
+    second: sherlda-removebg-preview_22
+  - first:
+      213: -4862199481108698470
+    second: sherlda-removebg-preview_23
+  - first:
+      213: 2020990425231643971
+    second: sherlda-removebg-preview_24
+  - first:
+      213: -2269605690098152686
+    second: sherlda-removebg-preview_25
+  - first:
+      213: -1859254052029623875
+    second: sherlda-removebg-preview_26
+  - first:
+      213: 4309641074746627224
+    second: sherlda-removebg-preview_27
+  - first:
+      213: -624416119809453278
+    second: sherlda-removebg-preview_28
+  - first:
+      213: -7137393501268767102
+    second: sherlda-removebg-preview_29
+  - first:
+      213: -4705707248658114263
+    second: sherlda-removebg-preview_30
+  - first:
+      213: -2961779577648342783
+    second: sherlda-removebg-preview_31
+  - first:
+      213: 2860422781994724872
+    second: sherlda-removebg-preview_32
+  - first:
+      213: -4690448733792137892
+    second: sherlda-removebg-preview_33
+  - first:
+      213: 2287023915001574131
+    second: sherlda-removebg-preview_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 381
+        width: 38
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81564c6d2d832520800000000000000
+      internalID: 2676137829817799051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 379
+        width: 38
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5b613bf5724fc40800000000000000
+      internalID: 5545100333179909544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 379
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c4cf03e3ff84610800000000000000
+      internalID: 1605813909732478054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 379
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539a1d7359c9892a0800000000000000
+      internalID: -6730457478404658891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 384
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cf744d76c2fae90800000000000000
+      internalID: -7012337270337831899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 379
+        width: 45
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705cff72829060670800000000000000
+      internalID: 8504495014410175751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 383
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9003eb23406f9b0800000000000000
+      internalID: -5046841716436366856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 383
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294fe198dbbf44e00800000000000000
+      internalID: 1028223406415213714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 381
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9a7c9577fa08190800000000000000
+      internalID: -7962171214048810531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 275
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a8fa0df742af2c0800000000000000
+      internalID: -4397161954793256290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 277
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5d330c0c98bedf0800000000000000
+      internalID: -149874701635431005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 275
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241e6af86b7354520800000000000000
+      internalID: 2685614010030022978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 275
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3270a9e46afde86a0800000000000000
+      internalID: -6444968111344318685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 278
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e468bc7c42f2860800000000000000
+      internalID: 7507259544381574732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 291
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbb8a84e912a1070800000000000000
+      internalID: 8077805845349972984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 297
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a7c4cbf6d893290800000000000000
+      internalID: -7910135759459550678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 284
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c63e52608c19b8b0800000000000000
+      internalID: -5136042562307606842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 276
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1283604a36bdce260800000000000000
+      internalID: 7128313531220768801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 202
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78a22dd565fb1d10800000000000000
+      internalID: 2097539869321635967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 202
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1279d3a921248750800000000000000
+      internalID: 6306201840951849501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 202
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d749ab0c3c78e3dc0800000000000000
+      internalID: -3657336572556438403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 203
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279d863278c728010800000000000000
+      internalID: 1189650171435735410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 202
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1807576d0fa9079d0800000000000000
+      internalID: -2778550610906746751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 251
+        width: 116
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a6d6d355ff58cb0800000000000000
+      internalID: -4862199481108698470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 187
+        width: 104
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345d56685100c0c10800000000000000
+      internalID: 2020990425231643971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 91
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b8e7556adb080e0800000000000000
+      internalID: -2269605690098152686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 91
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db191995a4a9236e0800000000000000
+      internalID: -1859254052029623875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 91
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89494b959bbeecb30800000000000000
+      internalID: 4309641074746627224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 160
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223dabae8d0a557f0800000000000000
+      internalID: -624416119809453278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 160
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e81b61d62e2fc90800000000000000
+      internalID: -7137393501268767102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 90
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92990c27038f1beb0800000000000000
+      internalID: -4705707248658114263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 91
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10993439a25a5e6d0800000000000000
+      internalID: -2961779577648342783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 91
+        width: 82
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80eea347d5342b720800000000000000
+      internalID: 2860422781994724872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 91
+        width: 80
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d83294abd28eeb0800000000000000
+      internalID: -4690448733792137892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 12
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2fd7e22242dbf10800000000000000
+      internalID: 2287023915001574131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sherlda-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 11
+        width: 96
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcacd8c622c9af4f994fe0ee336d90f
+      internalID: -911988372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2f63829844ca12944aef6a76a5b10ddf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sherlda-removebg-preview_0: 2676137829817799051
+      sherlda-removebg-preview_1: 5545100333179909544
+      sherlda-removebg-preview_10: -149874701635431005
+      sherlda-removebg-preview_11: 2685614010030022978
+      sherlda-removebg-preview_12: -6444968111344318685
+      sherlda-removebg-preview_13: 7507259544381574732
+      sherlda-removebg-preview_14: 8077805845349972984
+      sherlda-removebg-preview_15: -7910135759459550678
+      sherlda-removebg-preview_16: -5136042562307606842
+      sherlda-removebg-preview_17: 7128313531220768801
+      sherlda-removebg-preview_18: 2097539869321635967
+      sherlda-removebg-preview_19: 6306201840951849501
+      sherlda-removebg-preview_2: 1605813909732478054
+      sherlda-removebg-preview_20: -3657336572556438403
+      sherlda-removebg-preview_21: 1189650171435735410
+      sherlda-removebg-preview_22: -2778550610906746751
+      sherlda-removebg-preview_23: -4862199481108698470
+      sherlda-removebg-preview_24: 2020990425231643971
+      sherlda-removebg-preview_25: -2269605690098152686
+      sherlda-removebg-preview_26: -1859254052029623875
+      sherlda-removebg-preview_27: 4309641074746627224
+      sherlda-removebg-preview_28: -624416119809453278
+      sherlda-removebg-preview_29: -7137393501268767102
+      sherlda-removebg-preview_3: -6730457478404658891
+      sherlda-removebg-preview_30: -4705707248658114263
+      sherlda-removebg-preview_31: -2961779577648342783
+      sherlda-removebg-preview_32: 2860422781994724872
+      sherlda-removebg-preview_33: -4690448733792137892
+      sherlda-removebg-preview_34: 2287023915001574131
+      sherlda-removebg-preview_35: -911988372
+      sherlda-removebg-preview_4: -7012337270337831899
+      sherlda-removebg-preview_5: 8504495014410175751
+      sherlda-removebg-preview_6: -5046841716436366856
+      sherlda-removebg-preview_7: 1028223406415213714
+      sherlda-removebg-preview_8: -7962171214048810531
+      sherlda-removebg-preview_9: -4397161954793256290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
