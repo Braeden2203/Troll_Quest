@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class DeathState : State
@@ -20,14 +21,17 @@ public class DeathState : State
         knockbackDuration -= Time.fixedDeltaTime;
         if (knockbackDuration <= 0)
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             if (!senses.IsAtCliff())
                 rb.linearVelocity = Vector2.zero;
+            enemy.OnDeath?.Invoke();
+            enemy.OnDeath = null;
+            GameObject.Destroy(enemy.gameObject, 2f);
         }
     }
     public override void Exit()
     {
         base.Exit();
         anim.SetBool("isDead", false);
-    }
+    }   
+   
 }

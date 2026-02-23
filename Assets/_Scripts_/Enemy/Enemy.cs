@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public System.Action OnDeath;
     //Variables
     public int FacingDirection { get; private set; } = 1;
 
