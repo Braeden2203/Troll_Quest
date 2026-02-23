@@ -14,6 +14,9 @@ public class Enemy_Senses : MonoBehaviour
         Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, config.chaseRange, config.targetLayer);
         if (!hit)
             return null;
+        Player player = hit.GetComponent<Player>();
+        if (player.currenntState == player.deathState)
+            return null;
         return hit.transform;
     }
     public bool IsInMeleeRange(Transform target)

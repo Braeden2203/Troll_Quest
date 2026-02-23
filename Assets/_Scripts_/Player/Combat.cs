@@ -22,6 +22,6 @@ public class Combat : MonoBehaviour
         nextAttackTime = Time.time + attackCooldown;
         Collider2D enemy = Physics2D.OverlapCircle(attackPoint.position, attackRadius, enemyLayer);
         if (enemy != null)
-            enemy.gameObject.GetComponent<Health>().ChangeHealth(-damage);
+            enemy.gameObject.GetComponent<Health>().ChangeHealth(-damage, transform.position);
     }
 }

@@ -1,10 +1,14 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Enemy_Damage : MonoBehaviour
+public class Damage : MonoBehaviour
 {
-    [SerializeField] private Enemy enemy;
+    [SerializeField] private Player player;
     public Health health;
+    [Header("Knockback Settings")]
+    public float knockbackForce = 20;
+    public float knockbackDuration = .2f;
     private void OnEnable()
     {
         health.OnDamaged += HandleDamage;
@@ -19,12 +23,14 @@ public class Enemy_Damage : MonoBehaviour
     {
         int knockbackDir = 0;
         knockbackDir = transform.position.x > sourcePosition.x ? 1 : -1;
-        enemy.StateMachine.ChangeState(new DamagedState(enemy, knockbackDir));
+        player.damagedState.SetParameters(knockbackDir);
+        player.ChangeState(player.damagedState);
     }
     void HandleDeath(Vector2 sourcePosition)
     {
         int knockbackDir = 0;
         knockbackDir = transform.position.x > sourcePosition.x ? 1 : -1;
-        enemy.StateMachine.ChangeState(new DeathState(enemy, knockbackDir));
+        player.deathState.SetParameters(knockbackDir);
+        player.ChangeState(player.deathState);
     }
 }

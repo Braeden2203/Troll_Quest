@@ -7,10 +7,14 @@ public class Player : MonoBehaviour
     public PlayerIdleState idleState;
     public PlayerJumpState jumpState;
     public PlayerMoveState moveState;
+    public PlayerDamagedState damagedState;
+    public PlayerDeathState deathState;
     public PlayerAttackState attackState;
 
     [Header("Core Components")]
     public Combat combat;
+    public Damage damage;
+    public Health health;
 
     [Header("Components")]
     public Rigidbody2D rb;
@@ -45,6 +49,8 @@ public class Player : MonoBehaviour
         idleState = new PlayerIdleState(this);
         jumpState = new PlayerJumpState(this);
         moveState = new PlayerMoveState(this);
+        damagedState = new PlayerDamagedState(this);
+        deathState = new PlayerDeathState(this);
         attackState = new PlayerAttackState(this);
     }
 
@@ -104,6 +110,8 @@ public class Player : MonoBehaviour
 
     void Flip()
     {
+        if (currenntState == deathState)
+            return;
         if(moveInput.x > 0.1f)
         {
             facingDirection = 1;

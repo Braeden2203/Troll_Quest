@@ -223,7 +223,6 @@ GameObject:
   - component: {fileID: 82148331}
   - component: {fileID: 82148330}
   - component: {fileID: 82148332}
-  - component: {fileID: 82148334}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -326,6 +325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   combat: {fileID: 1266930642}
+  damage: {fileID: 1266930644}
+  health: {fileID: 1266930643}
   rb: {fileID: 82148331}
   playerInput: {fileID: 82148333}
   anim: {fileID: 1266930641}
@@ -378,20 +379,6 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &82148334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82148328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0c7452952d8fd348acde7ac8c6c7ab0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Health
-  health: 10
-  maxhealth: 10
 --- !u!1 &156796951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4577,7 +4564,7 @@ Transform:
   m_GameObject: {fileID: 1018662549}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: -0.65, z: 0}
+  m_LocalPosition: {x: 0.67, y: -0.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5023,6 +5010,8 @@ GameObject:
   - component: {fileID: 1266930640}
   - component: {fileID: 1266930641}
   - component: {fileID: 1266930642}
+  - component: {fileID: 1266930643}
+  - component: {fileID: 1266930644}
   m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
@@ -5139,13 +5128,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Combat
   damage: 5
-  attackRadius: 0.5
-  attackCooldown: 1
+  attackRadius: 1.2
+  attackCooldown: 0.5
   attackPoint: {fileID: 188093705}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128
   player: {fileID: 82148332}
+--- !u!114 &1266930643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266930638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c7452952d8fd348acde7ac8c6c7ab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  health: 0
+  maxhealth: 100
+--- !u!114 &1266930644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266930638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91ca9d09875d124e9a96bde2d35f4a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Damage
+  player: {fileID: 82148332}
+  health: {fileID: 1266930643}
+  knockbackForce: 20
+  knockbackDuration: 0.2
 --- !u!1 &1284296873
 GameObject:
   m_ObjectHideFlags: 0
@@ -23171,13 +23190,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113634055}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4338509de73ce5546b18094e55c68eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  enemy: {fileID: 2113634055}
-  anim: {fileID: 2113634058}
+  enemy: {fileID: 2113634064}
   health: {fileID: 2113634057}
 --- !u!114 &2113634057
 MonoBehaviour:
@@ -23186,7 +23204,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113634055}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0c7452952d8fd348acde7ac8c6c7ab0, type: 3}
   m_Name: 
