@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour
     public void SpawnEnemy()
     {
         GameObject newEnemy = Instantiate(m_enemy) as GameObject;
-        newEnemy.transform.position = new Vector2(Random.Range(wall1.transform.position.x, wall2.transform.position.x), -1.99f);
+        newEnemy.transform.position = new Vector2(Random.Range(wall1.transform.position.x, wall2.transform.position.x), 2.0f);
         currentEnemy = newEnemy.GetComponent<Enemy>();
         currentEnemy.OnDeath += HandleEnemyDeath;
     }
