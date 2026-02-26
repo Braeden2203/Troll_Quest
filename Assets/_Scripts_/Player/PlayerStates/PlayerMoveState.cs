@@ -22,6 +22,10 @@ public class PlayerMoveState : PlayerState
         {
             player.ChangeState(player.idleState);
         }
+        else if(player.isGrounded && RunPressed && MoveInput.y < -.1f)
+        {
+            player.ChangeState(player.slideState);
+        }
     }
 
     public override void FixedUpdate()

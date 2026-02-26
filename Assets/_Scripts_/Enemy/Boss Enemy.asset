@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba1e56ad56518d47a706bf3de0c33a2, type: 3}
   m_Name: Boss Enemy
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
-  turnThreshold: 0.2
+  turnThreshold: 2.5
   patrolSpeed: 6
   groundCheckDistance: 0.7
   wallCheckDistance: 0.5
@@ -23,7 +23,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   chaseSpeed: 7
-  chaseRange: 7
+  chaseRange: 14
   targetLayer:
     serializedVersion: 2
     m_Bits: 256

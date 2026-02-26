@@ -22,6 +22,10 @@ public class PlayerIdleState : PlayerState
         {
             player.ChangeState(player.moveState);
         }
+        else if(MoveInput.y < -.1f)
+        {
+            player.ChangeState(player.crouchState);
+        }
         rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
     }
 

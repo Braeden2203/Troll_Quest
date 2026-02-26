@@ -246,6 +246,8 @@ Transform:
   - {fileID: 1266930639}
   - {fileID: 546223572}
   - {fileID: 188093705}
+  - {fileID: 1539036444}
+  - {fileID: 324657712}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &82148330
@@ -282,8 +284,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.053126782, y: 0.013162881}
-  m_Size: {x: 0.82858866, y: 2.0104604}
+  m_Offset: {x: 0.05, y: 0.01}
+  m_Size: {x: 0.8, y: 2}
   m_Direction: 0
 --- !u!50 &82148331
 Rigidbody2D:
@@ -301,7 +303,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 6
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d0fa08d270461f8459f11ad34a8b6515, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -330,6 +332,7 @@ MonoBehaviour:
   rb: {fileID: 82148331}
   playerInput: {fileID: 82148333}
   anim: {fileID: 1266930641}
+  playerCollider: {fileID: 82148330}
   walkSpeed: 5
   runSpeed: 10
   jumpForce: 20
@@ -344,11 +347,26 @@ MonoBehaviour:
   jumpReleased: 0
   attackPressed: 0
   groundCheck: {fileID: 546223572}
-  groundCheckRadius: 0.5
+  groundCheckRadius: 0.38
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   isGrounded: 0
+  wallCheck: {fileID: 324657712}
+  wallCheckRadius: 0.5
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  isTouchingWall: 0
+  headCheck: {fileID: 1539036444}
+  headCheckRadius: 0.5
+  slideDuration: 0.6
+  slideSpeed: 12
+  slideStopDuration: 0.15
+  slideHeight: 1.2
+  slideOffset: {x: 0.05, y: -0.4}
+  normalHeight: 2
+  normalOffset: {x: 0.05, y: 0.01}
 --- !u!114 &82148333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,6 +718,37 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!1 &324657711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 324657712}
+  m_Layer: 8
+  m_Name: WallCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &324657712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324657711}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.37, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 82148329}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &386306539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,7 +1109,7 @@ Transform:
   m_GameObject: {fileID: 546223571}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.994, z: 0}
+  m_LocalPosition: {x: 0.047, y: -0.994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54459,6 +54508,37 @@ Transform:
   m_Children:
   - {fileID: 1284296874}
   m_Father: {fileID: 1060643276}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1539036443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539036444}
+  m_Layer: 8
+  m_Name: HeadCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1539036444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539036443}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11, y: 0.482, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 82148329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1586655963
 GameObject:

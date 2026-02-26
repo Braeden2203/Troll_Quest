@@ -7,9 +7,13 @@ public class Player : MonoBehaviour
     public PlayerIdleState idleState;
     public PlayerJumpState jumpState;
     public PlayerMoveState moveState;
+    public PlayerCrouchState crouchState;
+    public PlayerSlideState slideState;
     public PlayerDamagedState damagedState;
     public PlayerDeathState deathState;
     public PlayerAttackState attackState;
+    public PlayerWallJumpState wallJumpState;
+    public PlayerWallSlideState wallSlideState;
 
     [Header("Core Components")]
     public Combat combat;
@@ -20,6 +24,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public PlayerInput playerInput;
     public Animator anim;
+    public CapsuleCollider2D playerCollider;
 
     [Header("Movement Variables")]
     public float walkSpeed;
@@ -44,14 +49,39 @@ public class Player : MonoBehaviour
     public LayerMask groundLayer;
     public bool isGrounded;
 
+    [Header("Wall Check")]
+    public Transform wallCheck;
+    public float wallCheckRadius = 0.5f;
+    public LayerMask wallLayer;
+    public bool isTouchingWall;
+
+    [Header("Crouch Settings")]
+    public Transform headCheck;
+    public float headCheckRadius = .4f;
+
+    [Header("Slide Settings")]
+    public float slideDuration = .6f;
+    public float slideSpeed = 12;
+    public float slideStopDuration = .15f;
+    public float slideHeight;
+    public Vector2 slideOffset;
+    public float normalHeight;
+    public Vector2 normalOffset;
+    private bool isSliding;
+   
+
     private void Awake()
     {
         idleState = new PlayerIdleState(this);
         jumpState = new PlayerJumpState(this);
         moveState = new PlayerMoveState(this);
+        crouchState = new PlayerCrouchState(this);
+        slideState = new PlayerSlideState(this);
         damagedState = new PlayerDamagedState(this);
         deathState = new PlayerDeathState(this);
         attackState = new PlayerAttackState(this);
+        wallJumpState = new PlayerWallJumpState(this);
+        wallSlideState = new PlayerWallSlideState(this);
     }
 
     private void Start()
@@ -62,7 +92,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         currenntState.Update();
-        Flip();
+        if(!isSliding)
+            Flip();
         HandleAnimations();
     }
 
@@ -70,6 +101,17 @@ public class Player : MonoBehaviour
     {
         currenntState.FixedUpdate();
         CheckGrounded();
+        CheckForWalls();
+    }
+    public void SetColliderNormal()
+    {
+        playerCollider.size = new Vector2(playerCollider.size.x, normalHeight);
+        playerCollider.offset = normalOffset;
+    }
+    public void SetColliderSlide()
+    {
+        playerCollider.size = new Vector2(playerCollider.size.x, slideHeight);
+        playerCollider.offset = slideOffset;
     }
 
     public void ChangeState(PlayerState newState)
@@ -100,6 +142,14 @@ public class Player : MonoBehaviour
     public void CheckGrounded()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+    }
+    public void CheckForWalls()
+    {
+        isTouchingWall = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
+    }
+    public bool CheckForCeiling()
+    {
+        return Physics2D.OverlapCircle(headCheck.position, headCheckRadius, groundLayer);
     }
 
     void HandleAnimations()
@@ -147,7 +197,7 @@ public class Player : MonoBehaviour
     {
         if (value.isPressed)
         {
-            if(isGrounded)
+            if(isGrounded && !CheckForCeiling() || isTouchingWall)
                 jumpPressed = true;
             jumpReleased = false;
         }
@@ -161,5 +211,12 @@ public class Player : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(wallCheck.position, wallCheckRadius);
+
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(headCheck.position, headCheckRadius);
     }
 }
