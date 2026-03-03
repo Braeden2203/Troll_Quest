@@ -1,8 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Splines;
 
 public class Player : MonoBehaviour
 {
+    public TextMeshProUGUI debugText;
     public PlayerState currenntState;
     public PlayerIdleState idleState;
     public PlayerJumpState jumpState;
@@ -42,6 +45,8 @@ public class Player : MonoBehaviour
     public bool jumpPressed;
     public bool jumpReleased;
     public bool attackPressed;
+    public bool debugPressed;
+    public bool moveCharacterPressed;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -68,7 +73,12 @@ public class Player : MonoBehaviour
     public float normalHeight;
     public Vector2 normalOffset;
     private bool isSliding;
-   
+
+    [Header("Debug Settings")]
+    public Vector2 mousePosition;
+    public bool isMovingToMouse = false;
+    public float debugMovementSpeed = 20f;
+
 
     private void Awake()
     {
@@ -95,6 +105,29 @@ public class Player : MonoBehaviour
         if(!isSliding)
             Flip();
         HandleAnimations();
+        if(debugPressed)
+        {
+            debugText.text = $"State: {currenntState}\n" +
+                               $"Grounded: {isGrounded}\n" +
+                               $"Touching Wall: {isTouchingWall}\n" +
+                               $"Move Input: {moveInput}\n" +
+                               $"Facing Direction: {facingDirection}\n" +
+                               $"Moving to Mouse: {isMovingToMouse}\n" +
+                               $"Current Position: {rb.position}\n" +
+                               $"Mouse Position: {Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue())}";
+
+            if (isMovingToMouse)
+            {
+                mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+                Vector2 currentPosition = rb.position;
+                Vector2 direction = (mousePosition - currentPosition).normalized;
+                rb.linearVelocity = direction * debugMovementSpeed;
+            }
+        }
+        else
+        {
+            debugText.text = "";
+        }
     }
 
     void FixedUpdate()
@@ -191,6 +224,28 @@ public class Player : MonoBehaviour
     public void OnRun(InputValue value)
     {
         runPressed = value.isPressed;
+    }
+    public void OnDebug(InputValue value)
+    {
+        if(value.isPressed)
+        {
+            debugPressed = !debugPressed;
+        }
+    }
+    public void OnMoveCharacter(InputValue value)
+    {
+        if (value.isPressed)
+        {
+            isMovingToMouse = !isMovingToMouse;
+            /*if (isMovingToMouse)
+            {
+                mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            }
+            else
+            {
+                rb.linearVelocity = Vector2.zero; 
+            }*/
+        }
     }
 
     public void OnJump(InputValue value)
