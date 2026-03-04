@@ -4,8 +4,8 @@ public class Combat : MonoBehaviour
 {
     [Header("Attack Settings")]
     public int damage;
-    public float attackRadius = .5f;
-    public float attackCooldown = 1.5f;
+    public float attackRadius = .9f;
+    public float attackCooldown = .5f;
     public Transform attackPoint;
     public LayerMask enemyLayer;
     public Player player;

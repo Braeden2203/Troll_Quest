@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     public PlayerWallSlideState wallSlideState;
 
     [Header("Core Components")]
+    public EnemySpawner enemySpawner;
+    public Health healthCount;
     public Combat combat;
     public Damage damage;
     public Health health;
@@ -79,7 +81,6 @@ public class Player : MonoBehaviour
     public bool isMovingToMouse = false;
     public float debugMovementSpeed = 20f;
 
-
     private void Awake()
     {
         idleState = new PlayerIdleState(this);
@@ -96,6 +97,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        Health healthCount = transform.Find("Sprite").GetComponent<Health>();
         rb.gravityScale = normalGravity;
         ChangeState(idleState);
     }
@@ -108,13 +110,15 @@ public class Player : MonoBehaviour
         if(debugPressed)
         {
             debugText.text = $"State: {currenntState}\n" +
+                               $"Health: {healthCount.health}\n" +
                                $"Grounded: {isGrounded}\n" +
                                $"Touching Wall: {isTouchingWall}\n" +
                                $"Move Input: {moveInput}\n" +
                                $"Facing Direction: {facingDirection}\n" +
                                $"Moving to Mouse: {isMovingToMouse}\n" +
                                $"Current Position: {rb.position}\n" +
-                               $"Mouse Position: {Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue())}";
+                               $"Mouse Position: {Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue())}\n" +
+                               $"Enemy Count: {enemySpawner.enemiesCount}";
 
             if (isMovingToMouse)
             {
@@ -237,14 +241,6 @@ public class Player : MonoBehaviour
         if (value.isPressed)
         {
             isMovingToMouse = !isMovingToMouse;
-            /*if (isMovingToMouse)
-            {
-                mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-            }
-            else
-            {
-                rb.linearVelocity = Vector2.zero; 
-            }*/
         }
     }
 
@@ -273,5 +269,8 @@ public class Player : MonoBehaviour
 
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(headCheck.position, headCheckRadius);
+
+        Gizmos.color = Color.purple;
+        Gizmos.DrawWireSphere(combat.attackPoint.position, combat.attackRadius);
     }
 }
