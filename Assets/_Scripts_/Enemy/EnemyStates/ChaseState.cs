@@ -10,6 +10,7 @@ public class ChaseState : State
     {
         //Check for target
         target = senses.GetChaseTarget();
+        enemy.CurrentTarget = target;
         if(!target)
         {
             stateMachine.ChangeState(new PatrolState(enemy));
@@ -24,6 +25,16 @@ public class ChaseState : State
                 stateMachine.ChangeState(new MeleeAttackState1(enemy));
             else
                 stateMachine.ChangeState(new MeleeAttackState2(enemy));
+            return;
+        }
+        //Check if we can range attack
+        if (senses.IsInShootingRange(target) && combat.CanRangedAttack())
+        {
+            whichAttack = Random.Range(1, 3);
+            if (whichAttack == 1)
+                stateMachine.ChangeState(new RangedAttackState1(enemy));
+            else
+                stateMachine.ChangeState(new RangedAttackState2(enemy));
             return;
         }
         //Check if we reached our target

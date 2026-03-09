@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ce88e7e8750d8469224ff74096e39a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  Config: {fileID: 11400000, guid: 1e8ca4fa583fa774486d1c7bb941edf5, type: 2}
+  Config: {fileID: 11400000, guid: 461264dbbdc976e4db7b784d1fc98161, type: 2}
 --- !u!114 &5708439422399817278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Senses
   enemy: {fileID: 2586135583607853510}
-  config: {fileID: 11400000, guid: 1e8ca4fa583fa774486d1c7bb941edf5, type: 2}
+  config: {fileID: 11400000, guid: 461264dbbdc976e4db7b784d1fc98161, type: 2}
   groundCheck: {fileID: 3272721083897232171}
   wallCheck: {fileID: 3680831345121750193}
   attackPoint: {fileID: 9142531511403991025}

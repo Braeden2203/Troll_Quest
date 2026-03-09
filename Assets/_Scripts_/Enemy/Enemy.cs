@@ -5,6 +5,7 @@ public class Enemy : MonoBehaviour
     public System.Action OnDeath;
     //Variables
     public int FacingDirection { get; private set; } = 1;
+    public Transform CurrentTarget { get; set; }
 
     //Components
     public Rigidbody2D RB {get; private set;}
@@ -39,7 +40,6 @@ public class Enemy : MonoBehaviour
     {
         FacingDirection *= -1;
         Vector3 scale = transform.localScale;
-        //scale.x = FacingDirection;
         scale.x = Mathf.Abs(scale.x) * FacingDirection;
         transform.localScale = scale;
     }
