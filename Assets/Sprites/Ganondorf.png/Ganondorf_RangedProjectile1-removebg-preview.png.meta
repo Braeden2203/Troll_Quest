@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: 62c10b2abd76378419e1c7051e555ddd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8332364835453944846
+    second: Ganondorf_RangedProjectile1-removebg-preview_0
+  - first:
+      213: 4464310714313486304
+    second: Ganondorf_RangedProjectile1-removebg-preview_1
+  - first:
+      213: 6836424304273745194
+    second: Ganondorf_RangedProjectile1-removebg-preview_2
+  - first:
+      213: 7386414815638410400
+    second: Ganondorf_RangedProjectile1-removebg-preview_3
+  - first:
+      213: -1076684542647222311
+    second: Ganondorf_RangedProjectile1-removebg-preview_4
+  - first:
+      213: -4214696033767419229
+    second: Ganondorf_RangedProjectile1-removebg-preview_5
+  - first:
+      213: -8401120410307428660
+    second: Ganondorf_RangedProjectile1-removebg-preview_6
+  - first:
+      213: 7386350508639380773
+    second: Ganondorf_RangedProjectile1-removebg-preview_7
+  - first:
+      213: 4550895179268461635
+    second: Ganondorf_RangedProjectile1-removebg-preview_8
+  - first:
+      213: 4314784002757999099
+    second: Ganondorf_RangedProjectile1-removebg-preview_9
+  - first:
+      213: 7947449201073185909
+    second: Ganondorf_RangedProjectile1-removebg-preview_10
+  - first:
+      213: 4838380261906928410
+    second: Ganondorf_RangedProjectile1-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 115
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04403ccba182a370800000000000000
+      internalID: 8332364835453944846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 110
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef20a511fa64fd30800000000000000
+      internalID: 4464310714313486304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 99
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25651e0fabdfde50800000000000000
+      internalID: 6836424304273745194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 94
+        width: 134
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a45fc1d321d18660800000000000000
+      internalID: 7386414815638410400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfbb5cec19de01f0800000000000000
+      internalID: -1076684542647222311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a29b07a9446285c0800000000000000
+      internalID: -4214696033767419229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce77547f79396b80800000000000000
+      internalID: -8401120410307428660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_RangedProjectile1-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525e9fd27a6918660800000000000000
+      internalID: 7386350508639380773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21d5121235b575e4a9e398ab808da317
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":88.0,"y":98.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ganondorf_RangedProjectile1-removebg-preview_0: 8332364835453944846
+      Ganondorf_RangedProjectile1-removebg-preview_1: 4464310714313486304
+      Ganondorf_RangedProjectile1-removebg-preview_2: 6836424304273745194
+      Ganondorf_RangedProjectile1-removebg-preview_3: 7386414815638410400
+      Ganondorf_RangedProjectile1-removebg-preview_4: -1076684542647222311
+      Ganondorf_RangedProjectile1-removebg-preview_5: -4214696033767419229
+      Ganondorf_RangedProjectile1-removebg-preview_6: -8401120410307428660
+      Ganondorf_RangedProjectile1-removebg-preview_7: 7386350508639380773
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

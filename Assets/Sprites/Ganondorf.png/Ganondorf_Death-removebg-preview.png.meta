@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: d40b1cd6d0754124a8739dc1e3fbbad5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8175502879609464744
+    second: Ganondorf_Death-removebg-preview_0
+  - first:
+      213: 456063545237053279
+    second: Ganondorf_Death-removebg-preview_1
+  - first:
+      213: -427518925705626019
+    second: Ganondorf_Death-removebg-preview_2
+  - first:
+      213: 6676432763184499828
+    second: Ganondorf_Death-removebg-preview_3
+  - first:
+      213: -6423483029415498873
+    second: Ganondorf_Death-removebg-preview_4
+  - first:
+      213: 4783350778979346432
+    second: Ganondorf_Death-removebg-preview_5
+  - first:
+      213: 745541589263164561
+    second: Ganondorf_Death-removebg-preview_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ganondorf_Death-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 61
+        height: 72
+      alignment: 9
+      pivot: {x: 0.51145864, y: 0.55177647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a72e47ad88357170800000000000000
+      internalID: 8175502879609464744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_Death-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 8
+        width: 51
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5647206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f1cd8c063445600800000000000000
+      internalID: 456063545237053279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_Death-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 48
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5048542, y: 0.5679567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e3f8a5dc5211af0800000000000000
+      internalID: -427518925705626019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_Death-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 8
+        width: 53
+        height: 72
+      alignment: 9
+      pivot: {x: 0.48681122, y: 0.56795657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c4460993477ac50800000000000000
+      internalID: 6676432763184499828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_Death-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 8
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.49999952, y: 0.7718262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b60f2c7343bd6a0800000000000000
+      internalID: -6423483029415498873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_Death-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 8
+        width: 55
+        height: 72
+      alignment: 9
+      pivot: {x: 0.48305443, y: 0.72328573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008e621b030e16240800000000000000
+      internalID: 4783350778979346432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ganondorf_Death-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 8
+        width: 66
+        height: 72
+      alignment: 9
+      pivot: {x: 0.49999908, y: 0.60031694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194af491022b85a00800000000000000
+      internalID: 745541589263164561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 17268bcea6a5d1e438cfde4d176347c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":56.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ganondorf_Death-removebg-preview_0: 8175502879609464744
+      Ganondorf_Death-removebg-preview_1: 456063545237053279
+      Ganondorf_Death-removebg-preview_2: -427518925705626019
+      Ganondorf_Death-removebg-preview_3: 6676432763184499828
+      Ganondorf_Death-removebg-preview_4: -6423483029415498873
+      Ganondorf_Death-removebg-preview_5: 4783350778979346432
+      Ganondorf_Death-removebg-preview_6: 745541589263164561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
