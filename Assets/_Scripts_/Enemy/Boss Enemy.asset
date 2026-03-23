@@ -28,7 +28,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   meleeRange: 2
-  meleeDamage: 5
+  meleeDamage: 10
   meleeCooldown: 1.5
   rangedRange: 0
   rangedDamage: 0

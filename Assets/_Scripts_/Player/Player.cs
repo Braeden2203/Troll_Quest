@@ -80,6 +80,9 @@ public class Player : MonoBehaviour
     public Vector2 mousePosition;
     public bool isMovingToMouse = false;
     public float debugMovementSpeed = 20f;
+    public Vector3 lastGroundedPosition;
+    public LayerMask emptyLayer;
+    public bool isFallen;
 
     private void Awake()
     {
@@ -139,6 +142,18 @@ public class Player : MonoBehaviour
         currenntState.FixedUpdate();
         CheckGrounded();
         CheckForWalls();
+        CheckLastGrounded();
+        CheckIfFallen();
+        if(isFallen == true)
+        {
+            lastGroundedPosition.y += 2;
+            if (facingDirection == 1)
+                lastGroundedPosition.x -= 5;
+            else if(facingDirection == -1)
+                lastGroundedPosition.x += 5;
+            transform.position = lastGroundedPosition;
+            isFallen = false;
+        }
     }
     public void SetColliderNormal()
     {
@@ -179,6 +194,17 @@ public class Player : MonoBehaviour
     public void CheckGrounded()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+    }
+    public void CheckLastGrounded()
+    {
+        if(isGrounded == true)
+        {
+            lastGroundedPosition = transform.position;
+        }
+    }
+    public void CheckIfFallen()
+    {
+        isFallen = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, emptyLayer);
     }
     public void CheckForWalls()
     {

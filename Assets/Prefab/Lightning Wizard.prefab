@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 0
-  maxhealth: 10
+  maxhealth: 20
 --- !u!114 &894067766602297353
 MonoBehaviour:
   m_ObjectHideFlags: 0

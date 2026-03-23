@@ -31,7 +31,7 @@ MonoBehaviour:
   meleeDamage: 2
   meleeCooldown: 2
   rangedRange: 5
-  rangedDamage: 1
+  rangedDamage: 3
   rangedCooldown: 2
   projectilePrefab1: {fileID: 8879427207188673330, guid: f8043e2e389c76c4194eceb82a943ed7, type: 3}
   projectilePrefab2: {fileID: 8879427207188673330, guid: f8043e2e389c76c4194eceb82a943ed7, type: 3}
