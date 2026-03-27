@@ -190,11 +190,11 @@ public class Player : MonoBehaviour
         CheckIfFallen();
         if(isFallen == true)
         {
-            lastGroundedPosition.y += 2;
-            if (facingDirection == 1)
-                lastGroundedPosition.x -= 5;
-            else if(facingDirection == -1)
-                lastGroundedPosition.x += 5;
+            lastGroundedPosition.y += 0.5f;
+            if (facingDirection == 1f)
+                lastGroundedPosition.x -= 1f;
+            else if(facingDirection == -1f)
+                lastGroundedPosition.x += 1f;
             transform.position = lastGroundedPosition;
             isFallen = false;
         }

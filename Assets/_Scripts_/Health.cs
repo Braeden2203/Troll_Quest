@@ -3,6 +3,12 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    public enum EnemyOrPlayer
+    {
+        Player,
+        Enemy
+    }
+    public EnemyOrPlayer enemyPlayer;
     public event Action<Vector2> OnDamaged;
     public event Action<Vector2> OnDeath;
     public int health;
@@ -35,47 +41,57 @@ public class Health : MonoBehaviour
     private void Update()
     {
         HitPointsCount = health;
-        if (HitPointsCount == 9)
+        switch (enemyPlayer)
         {
-            HCTen.gameObject.SetActive(false);
+            case EnemyOrPlayer.Player:
+                if (HitPointsCount == 9)
+                {
+                    HCTen.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 8)
+                {
+                    HCNine.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 7)
+                {
+                    HCEight.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 6)
+                {
+                    HCSeven.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 5)
+                {
+                    HCSix.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 4)
+                {
+                    HCFive.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 3)
+                {
+                    HCFour.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 2)
+                {
+                    HCThree.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 1)
+                {
+                    HCTwo.gameObject.SetActive(false);
+                }
+                else if (HitPointsCount == 0)
+                {
+                    HCOne.gameObject.SetActive(false);
+                    GameManager.GetComponent<MainMenuManager>().LoadDeathScene();
+                }
+                break;
+            case EnemyOrPlayer.Enemy:
+
+                break;
         }
-        else if (HitPointsCount == 8)
-        {
-            HCNine.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 7)
-        {
-            HCEight.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 6)
-        {
-            HCSeven.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 5)
-        {
-            HCSix.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 4)
-        {
-            HCFive.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 3)
-        {
-            HCFour.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 2)
-        {
-            HCThree.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 1)
-        {
-            HCTwo.gameObject.SetActive(false);
-        }
-        else if (HitPointsCount == 0)
-        {
-            HCOne.gameObject.SetActive(false);
-            GameManager.GetComponent<MainMenuManager>().LoadDeathScene();
-        }
+    
+    
     }
     public void ChangeHealth(int amount, Vector2 sourcePosition)
     {

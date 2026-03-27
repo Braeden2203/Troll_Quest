@@ -262,8 +262,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c7452952d8fd348acde7ac8c6c7ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
+  enemyPlayer: 1
   health: 0
   maxhealth: 20
+  HCOne: {fileID: 0}
+  HCTwo: {fileID: 0}
+  HCThree: {fileID: 0}
+  HCFour: {fileID: 0}
+  HCFive: {fileID: 0}
+  HCSix: {fileID: 0}
+  HCSeven: {fileID: 0}
+  HCEight: {fileID: 0}
+  HCNine: {fileID: 0}
+  HCTen: {fileID: 0}
+  HitPointsCount: 10
+  GameManager: {fileID: 0}
+  Player: {fileID: 0}
 --- !u!114 &4719979956439561303
 MonoBehaviour:
   m_ObjectHideFlags: 0

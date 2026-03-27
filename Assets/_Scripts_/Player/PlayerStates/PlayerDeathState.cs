@@ -1,10 +1,10 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerDeathState : PlayerState
 {
     private float knockbackVelocity;
     private float knockbackDuration;
-    private bool isTimeSlow;
     public PlayerDeathState(Player player) : base(player) { }
     public void SetParameters(int knockbackDirection)
     {
@@ -13,8 +13,6 @@ public class PlayerDeathState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        Time.timeScale = .4f;
-        isTimeSlow = true;
         anim.SetBool("isDead", true);
         player.groundCheckRadius = .2f;
         knockbackDuration = damage.knockbackDuration;
@@ -25,11 +23,6 @@ public class PlayerDeathState : PlayerState
         knockbackDuration -= Time.fixedDeltaTime;
         if (knockbackDuration <= 0)
         {
-            if(isTimeSlow)
-            {
-                Time.timeScale = 1f;
-                isTimeSlow = false;
-            }
             if(player.isGrounded)
                 player.rb.linearVelocity = Vector2.zero;
         }
