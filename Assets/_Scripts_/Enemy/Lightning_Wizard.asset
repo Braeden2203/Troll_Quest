@@ -28,10 +28,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   meleeRange: 1
-  meleeDamage: 2
+  meleeDamage: 1
   meleeCooldown: 2
   rangedRange: 5
-  rangedDamage: 3
+  rangedDamage: 1
   rangedCooldown: 2
   projectilePrefab1: {fileID: 8879427207188673330, guid: f8043e2e389c76c4194eceb82a943ed7, type: 3}
   projectilePrefab2: {fileID: 8879427207188673330, guid: f8043e2e389c76c4194eceb82a943ed7, type: 3}

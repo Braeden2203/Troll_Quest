@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Splines;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -84,6 +85,18 @@ public class Player : MonoBehaviour
     public LayerMask emptyLayer;
     public bool isFallen;
 
+    [Header("Spell Casting")]
+    InputAction CastSpell;
+    InputAction CycleSpell;
+    public bool JumpSpellObtained = false;
+    public float JumpSpellDuration;
+    //float JumpSpellMultiplier = 2f;
+    public bool AnySpellObtained = false;
+    public GameObject SpellUI;
+    [SerializeField] TMP_Text JumpSpellTimer;
+
+    
+
     private void Awake()
     {
         idleState = new PlayerIdleState(this);
@@ -103,14 +116,16 @@ public class Player : MonoBehaviour
         Health healthCount = transform.Find("Sprite").GetComponent<Health>();
         rb.gravityScale = normalGravity;
         ChangeState(idleState);
+        CastSpell = InputSystem.actions.FindAction("CastSpell");
+        
     }
     void Update()
     {
         currenntState.Update();
-        if(!isSliding)
+        if (!isSliding)
             Flip();
         HandleAnimations();
-        if(debugPressed)
+        if (debugPressed)
         {
             debugText.text = $"State: {currenntState}\n" +
                                $"Health: {healthCount.health}\n" +
@@ -135,8 +150,37 @@ public class Player : MonoBehaviour
         {
             debugText.text = "";
         }
-    }
 
+        if (JumpSpellDuration > 0)
+        {
+            JumpSpellDuration -= Time.deltaTime;
+        }
+
+        if (JumpSpellDuration <= 0)
+        {
+            JumpSpellDuration = 0;
+            jumpForce = 20;
+
+        }
+
+        int DisplayTime = Mathf.FloorToInt(JumpSpellDuration % 60);
+        JumpSpellTimer.text = DisplayTime.ToString();
+
+        if (CastSpell.IsPressed() && JumpSpellObtained && JumpSpellDuration == 0)
+        {
+            jumpForce = 25;
+
+            JumpSpellDuration = 10f;
+
+        }
+
+        if (AnySpellObtained == true)
+        {
+            SpellUI.gameObject.SetActive(true);
+        }
+
+       
+    }
     void FixedUpdate()
     {
         currenntState.FixedUpdate();
@@ -299,4 +343,12 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.purple;
         Gizmos.DrawWireSphere(combat.attackPoint.position, combat.attackRadius);
     }
+
+    public void JumpSpellEnable()
+    {
+        JumpSpellObtained = true;
+        AnySpellObtained = true;
+    }
+
+    
 }
